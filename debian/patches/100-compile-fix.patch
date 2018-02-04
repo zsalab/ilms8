@@ -1,0 +1,11 @@
+diff -rupN ilms8-8.0.0.7.orig/src/tools/ATVersion.cpp ilms8-8.0.0.7/src/tools/ATVersion.cpp
+--- ilms8-8.0.0.7.orig/src/tools/ATVersion.cpp	2011-06-29 11:45:54.000000000 +0200
++++ ilms8-8.0.0.7/src/tools/ATVersion.cpp	2016-07-21 19:16:05.476957637 +0200
+@@ -40,6 +40,7 @@
+ #include <cerrno>
+ #include <fstream>
+ #include <dirent.h>
++#include <unistd.h>
+ 
+ #define AT_VERSION_ARGUMENT "--version"
+ #define AT_VERSION_MAXSIZE 40

@@ -1,0 +1,6 @@
+/.debhelper
+/ilms8
+/debhelper-*
+/*.debhelper.log
+/*.substvars
+/files
